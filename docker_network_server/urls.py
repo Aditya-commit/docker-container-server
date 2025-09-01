@@ -21,5 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('greet' , views.greet),
-    path('flask-ping' , views.internal_api)
+    path('flask-ping' , views.internal_api),
+    path('read-file', views.read_file),
+    path('edit-file' , views.edit_file),
 ]
