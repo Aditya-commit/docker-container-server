@@ -24,4 +24,6 @@ urlpatterns = [
     path('flask-ping' , views.internal_api),
     path('read-file', views.read_file),
     path('edit-file' , views.edit_file),
+    path('read-volume-data' , views.read_volume_data),
+    path('edit-volume-data' , views.edit_volume_data),
 ]
